@@ -1,0 +1,45 @@
+body {
+			text-align: center;
+			font-family: sans-serif;
+			font-size: 1.2em;
+			padding: 1% 0;
+			background: rgba(240,226,219,.3);
+			}
+			
+		img {
+			width: 23%;
+			margin: 1%;
+			vertical-align: middle;
+			transition: all 2s, transform .5s, box-shadow .5s;
+			}
+		
+		img:hover {
+			box-shadow: 6px 6px 20px rgba(0,0,0,.6);
+			transform: scale(1.02);
+			}
+			
+		img:focus {
+				box-shadow: 12px 12px 25px rgba(0, 0, 0, .7);
+				width: 47%;
+				transform: none;
+			}
+@media only screen and (max-width:938px) {
+  img{width: 37%;
+  }
+  img:focus{
+    width:60%;
+    margin:0 
+  }
+ }
+
+@media only screen and (max-width:622px){
+  img{
+    width:65%;
+  }
+  img:focus{
+    width:100%;
+    margin:10px 0;
+    
+  }
+  
+}
