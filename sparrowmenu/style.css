@@ -26,7 +26,7 @@ body {
 /* ///////////..utility classes../////////// */
 
 .container {
-  max-width: 2400px;
+  max-width: 1200px;
   width: 90%;
   margin: auto;
 }
